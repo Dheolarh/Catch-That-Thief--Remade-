@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 1666531370309692564}
   m_Layer: 0
   m_Name: Burglar
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,8 +1037,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7789420330011479670}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 951.107, y: 540.39, z: -3}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_LocalPosition: {x: -11.1, y: 0.3, z: -3}
+  m_LocalScale: {x: 0.16000001, y: 0.16, z: 0.16000001}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2926609134377715969}

@@ -7,8 +7,8 @@ public class Burglar : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        speed = 8f;
-        damageCount = 8f;
+        speed = 3f;
+        damageCount = 3f;
         base.DifficultyChecker();
     }
 

@@ -36,16 +36,16 @@ public class Enemy : MonoBehaviour
         switch (difficulty)
         {
             case "Easy":
-                speed /= 2;
-                damageCount /= 2;
+                speed -= 1;
+                damageCount -= 1;
                 break;
-            case "Medium":
+            case "Normal":
                 speed = speed;
                 damageCount = damageCount;
                 break;
             case "Hard":
-                speed += 5;
-                damageCount += 5;
+                speed += 2;
+                damageCount += 2;
                 break;
         }
     }

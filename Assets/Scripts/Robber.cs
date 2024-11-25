@@ -7,8 +7,8 @@ public class Robber : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        speed = 10f;
-        damageCount = 10f;
+        speed = 3.5f;
+        damageCount = 3.5f;
         base.DifficultyChecker();
     }
 

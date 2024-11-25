@@ -9,7 +9,7 @@ public class SpawnManager : MonoBehaviour
     private int _timing;
     void Start()
     {
-        _timing = Random.Range(1, 5);
+        _timing = Random.Range(2, 5);
         StartCoroutine("spawnEnemies");
     }
 
@@ -21,24 +21,26 @@ public class SpawnManager : MonoBehaviour
 
     int RandomSpawning()
     {
-        int spawnRange = Random.Range(0, enemyPrefabs.Count);
-        return spawnRange;
+        return Random.Range(0, enemyPrefabs.Count);;
     }
 
     Vector3 SpawnPosition()
     {
-        Vector3 spawnPos = new Vector3(951, 540, -3);
-        return spawnPos;
+        return new Vector3(-11, 0.3f, -3);;
     }
 
     IEnumerator spawnEnemies()
     {
-        float spawnDimension = 960f;
-        Instantiate(enemyPrefabs[RandomSpawning()], SpawnPosition(), enemyPrefabs[RandomSpawning()].transform.rotation);
-        if (enemyPrefabs[RandomSpawning()].transform.position.x > spawnDimension)
+        while (true)
         {
-            Destroy(enemyPrefabs[RandomSpawning()]);
+            int randomIndex = RandomSpawning();
+            GameObject enemy = Instantiate(enemyPrefabs[randomIndex], SpawnPosition(), enemyPrefabs[randomIndex].transform.rotation);
+            if (enemyPrefabs[RandomSpawning()].transform.position.x > 0)
+            {
+                Destroy(enemy);
+            }
+            yield return new WaitForSeconds(_timing);
         }
-        yield return new WaitForSeconds(_timing);
+
     }
 }
