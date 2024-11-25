@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ea1b189-3122-4815-bf2c-f2c3855080af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Catch That Thief/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catch That Thief/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Burglar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Burglar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnironMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnironMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Robber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Robber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI-elements/source/Variant Prefab/Burglar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI-elements/source/Variant Prefab/Burglar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI-elements/source/Variant Prefab/Robber.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI-elements/source/Variant Prefab/Robber.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI-elements/textures/Police.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="7ea1b189-3122-4815-bf2c-f2c3855080af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732348765185</updated>
       <workItem from="1732348772198" duration="14199000" />
-      <workItem from="1732521341518" duration="6048000" />
+      <workItem from="1732521341518" duration="6621000" />
     </task>
     <servers />
   </component>
